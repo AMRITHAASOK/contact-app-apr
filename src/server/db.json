@@ -1,0 +1,59 @@
+{
+    "contacts": [
+      {
+        "id": 1,
+        "name": "Ann Luke",
+        "email": "annluke@gmail.com",
+        "phone":"9898989898",
+        "photourl":"https://cdn2.f-cdn.com/contestentries/1440473/30778261/5bdd02db9ff4c_thumb900.jpg",
+        "company":"ABC Company",
+        "title": "HR",
+        "GroupId":"1"
+      },
+      {
+        "id": 2,
+        "name": "Vimal",
+        "email": "vimal@gmail.com",
+        "phone":"9595959595",
+        "photourl":"https://cdn2.f-cdn.com/contestentries/1440473/30778261/5bdd02db9ff4c_thumb900.jpg",
+        "company":"XYZ Company",
+        "title": "Senior Developer",
+        "GroupId":"3"
+      },
+      {
+        "id": 3,
+        "name": "Sandra S Raj",
+        "email": "sandra@gmail.com",
+        "phone":"9797979797",
+        "photourl":"https://cdn4.iconfinder.com/data/icons/occupation-job-icons/512/OCCUPATION1-29-1024.png",
+        "company":"ABC Company",
+        "title": "Manager",
+        "GroupId":"2"
+      },
+      {
+        "id": 4,
+        "name": "Arjun S",
+        "email": "arjun@gmail.com",
+        "phone":"9393939393",
+        "photourl":"https://th.bing.com/th/id/OIP.2dmTqwPF0yB7w7F8TgZE2AHaHa?pid=ImgDet&rs=1",
+        "company":"GHI Company",
+        "title": "HR",
+        "GroupId":"1"
+      }
+
+    ],
+    "groups": [
+        {
+        "id":"1",
+      "name": "Company"
+    },
+    {
+        "id":"2",
+        "name":"Family"
+    },
+    {
+        "id":"3",
+        "name":"Friends"
+    }
+]
+  }

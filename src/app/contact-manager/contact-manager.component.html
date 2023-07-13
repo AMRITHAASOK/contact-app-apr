@@ -1,0 +1,121 @@
+<div class="container">
+
+    <div class="row">
+        <div class="col text-center">
+            <h1 class="my-3">CONTACT MANAGEMENT APPLICATION</h1>
+            <P style="text-align: justify;">Everything you need to provide seamless customer service
+                Be where your customers are
+                Engage in context-rich conversations on email, chat, phone, web, and social media right from a single
+                platform from wherever you are - all you need is a laptop or a cellphone.
+
+            </P>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col d-flex justify-content-between">
+            <div>
+                <!-- search -->
+                <input type="text" placeholder="Search Contact" class="form-control mb-3">
+            </div>
+            <!-- add contact button -->
+            <button class="btn btn-outline-dark" routerLink="/contactManager/addContact">Add Contact</button>
+        </div>
+    </div>
+    <!-- string Interpolation -->
+    {{heading}}
+    <div class="row">
+        <div class="col-6">
+            <div class="card my-3">
+                <div class="row">
+                    <div class="col-6">
+                        <!-- image -->
+                        <img class="m-2" width="200px" height="200px"
+                        src="https://th.bing.com/th/id/OIP.-O2ZGBu9WPEjdIMTFANy5QHaHa?pid=ImgDet&w=512&h=512&rs=1" alt="">
+                    </div>
+                    <div class="col-6">
+                        <!-- content -->
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                              <div class="ms-2 me-auto">
+                                <div class="fw-bold">Full Name</div>
+                              Amal Chandra
+                              </div>
+                        <!-- view -->
+                              <span class="badge bg-dark rounded-pill p-3">
+                                <a routerLink="/contactManager/viewContact/:Id">
+                                    <i class="fa-sharp fa-solid fa-eye fa-fade text-light"></i>
+                                </a>
+                              </span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                              <div class="ms-2 me-auto">
+                                <div class="fw-bold">Phone Number</div>
+                                9898989898
+                              </div>
+                        <!-- edit -->
+                              <span class="badge bg-dark rounded-pill p-3">
+                                <a routerLink="/contactManager/editContact/:contactId">
+                                    <i class="fa-sharp fa-solid fa-pen fa-fade text-light"></i>
+                                </a>
+                              </span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                              <div class="ms-2 me-auto">
+                                <div class="fw-bold">E Mail</div>
+                                amal@gmail.com
+                              </div>
+                            <!-- delete -->
+                              <button class="badge bg-dark rounded-pill p-3">
+                                <a routerLink="">
+                                    <i class="fa-sharp fa-solid fa-trash fa-fade text-light"></i>
+                                </a>
+                            </button>
+                            </li>
+                          </ol>
+                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+<!-- <div class="col-6 ">
+    <div class="card">
+   
+        <img class="m-2" width="200px" height="200px"
+            src="https://th.bing.com/th/id/OIP.-O2ZGBu9WPEjdIMTFANy5QHaHa?pid=ImgDet&w=512&h=512&rs=1" alt="">
+    
+    <div class="col-6">
+     
+        <ol class="list-group list-group-numbered">
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Subheading</div>
+                Content for list item
+              </div>
+              <span class="badge bg-primary rounded-pill">14</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Subheading</div>
+                Content for list item
+              </div>
+              <span class="badge bg-primary rounded-pill">14</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Subheading</div>
+                Content for list item
+              </div>
+              <span class="badge bg-primary rounded-pill">14</span>
+            </li>
+          </ol>
+        
+    </div>
+    </div>
+</div> -->
